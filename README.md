@@ -1,21 +1,24 @@
 # Software Code Defect Prediction from Requirements: A Study Based on COSMIC Sizing Data Movements
-This project is about a novel method for predicting code defect proneness at the requirement analysis phase by considering COSMIC Function Point (CFP) measurements for the first time. An industrial case study was performed in the context of a FinTech company that develops a system comprising a backend, a native iOS application, and a native Android application. We measured CFP during the requirements analysis phase of the corresponding project for all tasks over 12 months. 
 
-This repository includes a Jupyter Notebook and the dataset. Jupyter Notebook includes implementation of the proposed method and research questions of the related study. The research questions of the study listed below,
+This project presents a novel method for predicting code defect proneness during the requirements analysis phase by incorporating COSMIC Function Point (CFP) measurement. An industrial case study was conducted at a FinTech company that develops a system comprising a backend, a native iOS application, and a native Android application. We measured CFP during the requirements analysis phase of the project for all tasks over a 12-month period.
+
+This repository provides a Jupyter Notebook and an accompanying dataset. The Jupyter Notebook contains the implementation of the proposed method and the associated research questions. The research questions of the study are listed below:
+
 - *RQ1: Is there any correlation between CFP size and the number of code defects?*
 - *RQ2: How does the correlation between CFP size and the number of code defects differ across various platforms, levels of developer seniority, and CFP data movement characteristics?*
 - *RQ3: To what extent can we accurately predict the number of code defects for a new task?*
 
 - # Environment and Setup
 
-- *The Python version is 3.6.3.
+- *The Python version is 3.11.4.
 
 - Employed Python Libraries:
 
-      - *Pickle version is 4.0.
-      - *Numpy version is 1.13.3.
-      - *Scikit-learn version is 0.19.1.
-      - *Pandas version is 0.20.3.
+      - *Scikit-learn version is 1.3.0.
+      - *Pandas version is 1.5.3.
+      - *Numpy version is 1.24.3.
+      - *Scipy version is 1.10.1.
+      - *Pingouin version is 0.5.5.
 
 # How To Run
 1. Install anaconda (It will install all the necessary tools and libraries for you)
