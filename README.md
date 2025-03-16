@@ -4,9 +4,9 @@ This project presents a novel method for predicting code defect proneness during
 
 This repository provides a Jupyter Notebook and an accompanying dataset. The Jupyter Notebook contains the implementation of the proposed method and the associated research questions. The research questions of the study are listed below:
 
-- *RQ1: Is there any correlation between CFP size and the number of code defects?*
-- *RQ2: How does the correlation between CFP size and the number of code defects differ across various platforms, levels of developer seniority, and CFP data movement characteristics?*
-- *RQ3: To what extent can we accurately predict the number of code defects for a new task?*
+- *'''RQ1''': Is there any correlation between CFP size and the number of code defects?*
+- *'''RQ2''': How does the correlation between CFP size and the number of code defects differ across various platforms, levels of developer seniority, and CFP data movement characteristics?*
+- *'''RQ3''': To what extent can we accurately predict the number of code defects for a new task?*
 
 - # Environment and Setup
 
