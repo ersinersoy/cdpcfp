@@ -1,12 +1,12 @@
 # Software Code Defect Prediction from Requirements: A Study Based on COSMIC Sizing Data Movements
 
-This project presents a novel method for predicting code defect proneness during the requirements analysis phase by incorporating COSMIC Function Point (CFP) measurement. An industrial case study was conducted at a FinTech company that develops a system comprising a backend, a native iOS application, and a native Android application. We measured CFP during the requirements analysis phase of the project for all tasks over a 12-month period.
+This project presents a novel method for predicting code defect proneness during the requirements analysis phase by incorporating COSMIC Function Point (CFP) measurement. An industrial case study was conducted at a FinTech company that develops a system comprising a backend, a native iOS application, and a native Android application. We measured CFP during the requirements analysis phase of the project for all requirements over a 12-month period.
 
 This repository provides a Jupyter Notebook and an accompanying dataset. The Jupyter Notebook contains the implementation of the proposed method and the associated research questions. The research questions of the study are listed below:
 
 - *RQ1: Is there any correlation between CFP size and the number of code defects?*
 - *RQ2: How does the correlation between CFP size and the number of code defects differ across various platforms, levels of developer seniority, and CFP data movement characteristics?*
-- *RQ3: To what extent can we accurately predict the number of code defects for a new task?*
+- *RQ3: To what extent can we accurately predict the number of code defects for a new requirement?*
 
 - # Environment and Setup
 
